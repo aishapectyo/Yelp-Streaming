@@ -16,10 +16,10 @@ import string
 
 def get_yelp_businesses(location, category_filter = 'restaurants'):
     # from https://github.com/Yelp/yelp-api/tree/master/v2/python
-    consumer_key    = '7ZkNKBC5X-SU7OJ2vuFglA'
-    consumer_secret = 'emAhY004tYwqaAlUL-sh_fw4uXQ'
-    token           = 'HStkkQdl-kAmJZ2QRV5gBG-4qH-baRSf'
-    token_secret    = 'qBrCwkPIU5r_wYlm5KbRm_1o5xc'
+    consumer_key    = 'your consumer key'
+    consumer_secret = 'your consumer_secret'
+    token           = 'your token'
+    token_secret    = 'your token secret'
 
     consumer = oauth2.Consumer(consumer_key, consumer_secret)
 
